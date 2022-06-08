@@ -11,11 +11,9 @@ public class ClickerController2D : MonoBehaviour
     protected bool minus;
 
     public float spawnWidth = 1;
-    //public float spawnRate = 1;
 
     public GameObject HomeePrefab;
     public GameObject lastHomee;
-    //public GameObject nextHomee;
 
     protected LinkedList<GameObject> HomeesInScene;
     void Start()
@@ -49,7 +47,6 @@ public class ClickerController2D : MonoBehaviour
         {
             GameObject newHomee = Instantiate(HomeePrefab, spawnPos, Quaternion.identity);
             HomeesInScene.AddLast(newHomee);
-            //currHomees++;
             lastHomee = HomeePrefab;
             hit = false;
         }
@@ -57,12 +54,12 @@ public class ClickerController2D : MonoBehaviour
         {
             if (HomeesInScene.Count > 0)
             {
+                // proud moment? Realized that a linked list/stack data type is perfect for this implementation, and used the source code for the LinkedListNode type definitions to find the keyword '.Value' to get the actual data with its type from a node
                 GameObject homeeToRemove = HomeesInScene.Last.Value; // last added to list is first removed (similar to stack data structure)
                 Destroy(homeeToRemove);
 
                 HomeesInScene.RemoveLast();
             }
-            //currHomees--;
             minus = false;
         }
     }
