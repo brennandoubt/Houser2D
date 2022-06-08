@@ -14,7 +14,7 @@ public class HomeeSpawner2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // this is a simple timer structure that executes every 1/spawnRate seconds. This means it spawns spawnRate asteroids every second.
+        // this is a simple timer structure that executes every 1/spawnRate seconds. This means it spawns spawnRate homees every second.
         if (lastSpawnTime + 1 / spawnRate < Time.time)
         {
             lastSpawnTime = Time.time;
