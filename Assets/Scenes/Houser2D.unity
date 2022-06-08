@@ -295,7 +295,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 28004454}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 537513528}
+        m_TargetAssemblyTypeName: ClickerController2D, Assembly-CSharp
+        m_MethodName: ClickPlus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &28004454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -597,6 +609,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 216659888368923058, guid: bc8649061d31cbb42a7148e4a74926e5, type: 3}
   m_PrefabInstance: {fileID: 1444238930}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &537513526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 537513527}
+  - component: {fileID: 537513528}
+  m_Layer: 0
+  m_Name: ClickerControllerObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &537513527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537513526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0185548, y: -1.3507656, z: -0.09453444}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &537513528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537513526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee15a5516b5b37845a8d508a1c2c26ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currHomees: 0
 --- !u!1 &544065496
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,7 +737,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 544065499}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 537513528}
+        m_TargetAssemblyTypeName: ClickerController2D, Assembly-CSharp
+        m_MethodName: ClickMinus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &544065499
 MonoBehaviour:
   m_ObjectHideFlags: 0
