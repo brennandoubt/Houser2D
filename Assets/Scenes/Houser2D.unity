@@ -296,7 +296,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 537513528}
+      - m_Target: {fileID: 1793447697}
         m_TargetAssemblyTypeName: ClickerController2D, Assembly-CSharp
         m_MethodName: ClickPlus
         m_Mode: 1
@@ -653,7 +653,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee15a5516b5b37845a8d508a1c2c26ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currHomees: 0
+  spawnWidth: 1
+  HomeePrefab: {fileID: 879981741}
+  lastHomee: {fileID: 0}
 --- !u!1 &544065496
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,7 +740,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 537513528}
+      - m_Target: {fileID: 1793447697}
         m_TargetAssemblyTypeName: ClickerController2D, Assembly-CSharp
         m_MethodName: ClickMinus
         m_Mode: 1
@@ -1918,12 +1920,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1793447695}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 550dcd7e007069a4c969070565171d0c, type: 3}
+  m_Script: {fileID: 11500000, guid: ee15a5516b5b37845a8d508a1c2c26ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawnWidth: 1
-  spawnRate: 1
   HomeePrefab: {fileID: 879981741}
+  lastHomee: {fileID: 0}
 --- !u!1001 &1841392784
 PrefabInstance:
   m_ObjectHideFlags: 0
