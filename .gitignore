@@ -63,3 +63,4 @@ crashlytics-build.properties
 
 # bdproject file that I couldn't delete at the time
 .bdproject/
+bdproject/
