@@ -5,7 +5,8 @@ using UnityEngine;
 public class HomeController2D : MonoBehaviour
 {
 
-    private GameObject homee; // Homed homee here when they're added to this home
+    protected GameObject homee; // Homed homee here when they're added to this home
+    protected bool locked;
 
     // Start is called before the first frame update
     void Start()

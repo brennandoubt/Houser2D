@@ -15,6 +15,7 @@ public class HomeeController2D : MonoBehaviour
     bool canMove;
     bool dragging;
     private Collider2D coll;
+    //private AudioClip audioClip;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class HomeeController2D : MonoBehaviour
         coll = GetComponent<Collider2D>();
         canMove = false;
         dragging = false;
+        //audioClip = GetComponent<AudioClip>();
     }
 
     // Update is called once per frame
