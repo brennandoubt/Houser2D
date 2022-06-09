@@ -9,10 +9,9 @@ using UnityEngine;
  */
 public class CameraController2D : MonoBehaviour
 {
-
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
